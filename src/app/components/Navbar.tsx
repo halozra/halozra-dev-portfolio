@@ -66,7 +66,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/halozra"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white hover:text-amber-400 transition"
