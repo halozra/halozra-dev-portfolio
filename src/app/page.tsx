@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar />
       <div className="md:mt-[60px]">
         <main className="mt-10 md:mt-1 mx-4 flex flex-col-reverse gap-6 items-center md:flex-row md:gap-16 md:justify-center min-h-[65vh] md:min-h-[80vh]">
-          <div className="space-y-4 text-center md:text-left px-4 md:px-10">
+          <div className=" space-y-4 text-center md:text-left px-4 md:px-10">
             <motion.p
               className="text-amber-200 text-base md:text-lg"
               initial={{ x: -100, opacity: 0 }}
@@ -36,7 +36,7 @@ export default function Home() {
                 animation:
                   "typing 5s steps(40, end) infinite, blink 0.7s step-end infinite",
               }}
-              className="cursor flex typewrite text-lg md:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-yellow-500 whitespace-nowrap"
+              className="md:pl-0 pl-8 text-center cursor flex typewrite text-lg md:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-yellow-500 whitespace-nowrap"
             >
               {myJob}
             </h2>

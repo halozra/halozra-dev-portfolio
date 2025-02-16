@@ -70,7 +70,7 @@ export default function About() {
             <img
               src="/images/Artur1.jpg"
               alt="My Avatar"
-              className="rounded-full shadow-lg w-50 h-50 md:w-100 md:h-100 object-cover"
+              className="rounded-full shadow-lg w-8/12 sm:w-6/12 md:w-auto md:h-auto object-cover"
             />
           </motion.div>
         </main>
