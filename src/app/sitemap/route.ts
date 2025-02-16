@@ -1,9 +1,11 @@
 import { format } from "date-fns";
 import { NextResponse } from "next/server";
 
+export const dynamic = "force-dynamic"; // Ini biar tidak dianggap statis
+
 const SITE_URL = "https://haloezra.xyz";
 
-const pages = ["/", "/projects", "/about", "/contact"]; // Sesuaikan dengan halaman yang ada
+const pages = ["/", "/about", "/portofolio", "/contact"];
 
 export async function GET() {
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
